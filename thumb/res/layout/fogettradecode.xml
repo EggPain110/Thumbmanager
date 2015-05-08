@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb" >
+        <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#c51627" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="找回交易密码"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/button1"
+           android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="您是已交易用户，请先验证您的身份信息" />
+        
+        
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registeractivitybox" >
+
+      <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/registerphone2" />
+
+        
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/imageView8"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="请输短信验证码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColorHint="#bdbeba"
+            android:textSize="16sp" >
+
+            <requestFocus />
+        </EditText>
+        
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/huoquyanzhengma"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:text="获取验证码"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/hongseanniu"
+            android:text="下一步"
+            android:textColor="#ffffff" />
+
+</RelativeLayout>

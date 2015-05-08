@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb" >
+    
+        <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#c51627" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="风险评估"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+    </RelativeLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+      	android:isIndicator="true"
+      	style="@style/MyRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+      	 android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+      
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:text="开始测评"
+        android:textColor="#ffffff"
+        android:background="@drawable/hongseanniu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:text="友情提示：" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_below="@+id/ratingBar1"
+       	android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:text="为了保证您的权益，我们将默认    设置 您的投资风险承受为 保守型" />
+
+</RelativeLayout>

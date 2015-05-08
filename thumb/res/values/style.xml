@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="StatusBarBackground">
+        <item name="android:background">#ff0000</item>
+    </style>
+
+    <style name="XTheme" parent="android:Theme">
+        <item name="android:shadowColor">#ff0000</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+    
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

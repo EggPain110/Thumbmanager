@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/Buttonbangding"
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/hongseanniu"
+        android:text="绑定"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registeractivitybox" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="姓名"
+            android:textColor="#4E4E4C"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#00ffffff"
+            android:ems="10"
+            android:hint="请输入持卡人姓名"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registeractivitybox" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="卡号"
+            android:textColor="#4E4E4C"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#00ffffff"
+            android:ems="10"
+            android:hint="请输入收款人储蓄卡号"
+           	android:inputType="number"
+            android:maxLength="22"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#c51627" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="添加银行卡"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/huisehengxian" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/registeractivitybox" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="省份"
+            android:textColor="#4E4E4C"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/province_spinner"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#00ffffff"
+            android:ems="10"
+           
+            android:maxLength="18"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registeractivitybox" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="城市"
+            android:textColor="#4E4E4C"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/city_spinner"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#00ffffff"
+            android:ems="10"
+           
+            android:maxLength="18"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/registeractivitybox" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="开户银行"
+            android:textColor="#4E4E4C"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/bankname_spinner"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="#00ffffff"
+            android:ems="10"
+           
+            android:maxLength="18"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

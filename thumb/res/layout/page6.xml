@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:text="5.41" 
+        android:textColor="#ffffff"
+        android:background="#E11A2F"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button1"
+        android:layout_centerHorizontal="true"
+        android:text="七日年化"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button1"
+        android:layout_alignBottom="@+id/Button1"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="%"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

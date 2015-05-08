@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#c51627" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="购买"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/huisehengxian" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="316dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pinkbackground" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:text="产品十号"
+            android:textColor="#FA5C5B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:text="起投金额：100元"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="5dp"
+            android:text="手续费：无"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignRight="@+id/button20"
+            android:text="理财期限：7天"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignRight="@+id/button20"
+            android:text="年化：10.00%"
+            android:textColor="#444444" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="80dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/low"
+            android:text="1R 低风险"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imageView2"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editextbackground2" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="购买金额"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="90dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="最低100元起，每100元累加"
+            android:inputType="number"
+            android:maxLength="9"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editextbackground2" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="推荐人"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="90dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="请填写推荐人号码（非必填）"
+            android:maxLength="9"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:button="@null"
+        android:drawableLeft="@drawable/checkbox"
+        android:text=" 我同意"
+        android:textColor="#4E4E4C"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/hongseanniu"
+        android:text="下一步"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="预期收益产生时间：2014-12-5"
+        android:textColor="#444444" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:background="#00EBEBEB"
+        android:text="《购买服务协议》"
+        android:textColor="#E11A2F"
+        android:textSize="14sp" />
+
+</RelativeLayout>

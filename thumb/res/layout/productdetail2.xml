@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detailedinformationbackground2" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:background="#c51627"
+        android:layout_height="52dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="产品一号"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22sp" />
+
+    
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/darkredline"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="10.00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="30天购买人数  31992" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="期限（天） 30" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="长汇财富为产品兑付提供100%流动性支持" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baoxian" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="61dp"
+        android:layout_height="79dp"
+        android:background="@drawable/xiangmujieshao" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="61dp"
+        android:layout_height="79dp"
+        android:background="@drawable/jianyipeibi" />
+
+    <Button
+        android:id="@+id/button3"
+       android:layout_width="61dp"
+        android:layout_height="79dp"
+        android:background="@drawable/zichananquan" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="61dp"
+        android:layout_height="79dp"
+        android:background="@drawable/gengduoxiangqing" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/jishuanqi" />
+  
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/xiangqingyegoumai" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="预期年化收益率" />
+
+</RelativeLayout>

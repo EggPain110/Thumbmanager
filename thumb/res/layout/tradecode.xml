@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#c51627" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置交易密码"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/huisehengxian" />
+
+        <Button
+            android:id="@+id/button1"
+           android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/zuoshangjiaobaisefanhui" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="为了您的交易安全，请设置您的交易密码"
+        android:textColor="#FA5C5B"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="306dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tradecodebox"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/codethumb" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/blackbackground" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="天天赚安全键盘"
+            android:textColor="#828282" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="3"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="1"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="4"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/button5"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/numberkeyboard"
+            android:text="5"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignTop="@+id/button6"
+            android:background="@drawable/numberkeyboard"
+            android:text="6"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="7"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/button8"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/numberkeyboard"
+            android:text="8"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/button9"
+            android:layout_alignLeft="@+id/button7"
+            android:background="@drawable/numberkeyboard"
+            android:text="9"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_below="@+id/button9"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/numberkeyboard"
+            android:text="0"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignTop="@+id/button11"
+            android:background="@drawable/deletekeyboard" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="113dp"
+            android:layout_height="45dp"
+            android:layout_alignLeft="@+id/button10"
+            android:layout_alignTop="@+id/button11"
+            android:background="@drawable/numberkeyboard"
+            android:text="完成"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/hongseanniu"
+        android:text="下一步"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="请再次输入交易密码"
+        android:textColor="#FA5C5B" />
+
+  
+
+</RelativeLayout>

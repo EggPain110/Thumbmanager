@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#C51627" >
+       
+      
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textview1"
+            android:layout_below="@+id/textview1"
+            android:gravity="center"
+            android:text="(138****8888)"
+            android:textColor="#00ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="我的资产"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+       
+        android:orientation="horizontal" >
+
+        
+        <TextView
+            android:id="@+id/main_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/main_textview2"
+            android:layout_alignBottom="@+id/main_textview2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="资产"
+            android:textColor="#C51627"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="记录"
+            android:textColor="#4E4E4C"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="140dp"
+        android:layout_height="6dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/slidingline" />
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/blackandwhite"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:layout_marginTop="0dp" >
+    </android.support.v4.view.ViewPager>
+
+    
+
+</LinearLayout>

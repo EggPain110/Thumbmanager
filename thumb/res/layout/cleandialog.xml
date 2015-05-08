@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="提示"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/fenhongduanhenxian" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="是否清理缓存？"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#898989" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fenhongduanhenxian" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/fenhongduanshuxian" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" >
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginRight="35dp"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:background="#00ffffff"
+        android:text="取消"
+        android:textColor="#898989" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/imageView3"
+        android:background="#00ffffff"
+        android:text="确定"
+        android:textColor="#c51627" />
+
+</RelativeLayout>
